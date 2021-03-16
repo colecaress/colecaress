@@ -1,0 +1,41 @@
+
+/*body {
+background: white }*/
+body {
+background-image: url('textured_concrete.jpg');
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #DDD;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF8;
+}
+
+/* selected link */
+a:active {
+    color: #FFC;
+}
+
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+
+section {
+    background: black;
+    /*color: white;*/
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
